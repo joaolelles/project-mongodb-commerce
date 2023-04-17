@@ -9,7 +9,7 @@ db.produtos.find({
         vendidos: {
             $eq: 85,
         },
-    },]
+    }],
 }, {
     nome: 1,
     curtidas: 1,
